@@ -13,5 +13,15 @@ namespace COMP2007_S2016_MidTerm_200326347
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/TodoList.aspx");
+        }
+
+        protected void SaveButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
