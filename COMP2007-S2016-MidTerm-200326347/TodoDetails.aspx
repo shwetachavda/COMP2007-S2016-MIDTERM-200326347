@@ -1,4 +1,12 @@
 ﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP2007_S2016_MidTerm_200326347.TodoDetails" %>
+<%--
+File Name: TodoDetails.aspx
+Author Name:  Shweta Chavda(200326347)
+Website Name: http://comp2007-s2016-midterm-200326347.azurewebsites.net
+Description:  This page allows user to add or update todo
+ @date: June 23, 2016
+   --%>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      <div class="container">
         <div class="row">
@@ -11,7 +19,7 @@
                     <asp:TextBox runat="server" CssClass="form-control" ID="TodoNameTextBox" placeholder="Todo Name" required="true"></asp:TextBox>
                 </div>
               <div class="form-group">
-                    <label class="control-label" for="TodoNotesTextBox">Todo Name</label>
+                    <label class="control-label" for="TodoNotesTextBox">Todo Notes</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox" placeholder="Todo Notes" required="true"></asp:TextBox>
                 </div>
                 <div class="form-group">
